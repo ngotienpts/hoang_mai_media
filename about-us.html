@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- favicon -->
+        
+        <!-- end favicon -->
+        <title>Hoang Mai Media</title>
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!-- end font -->
+        <link rel="stylesheet" href="./lib/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./lib/fancybox/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./lib/jquery/jquery-3.7.1.min.js"></script>
+    </head>
+
+    <body>
+        
+        <!-- header -->
+        <header id="header" class="header relative z-50 shadow js__stickyHeader">
+            <!-- pc -->
+            <div class="d-3xl-block d-xl-none">
+                <div class="header-desk relative z-20">
+                    <!-- header top -->
+                    <div class="header-top w-wrapper bg-white">
+                        <!-- container -->
+                        <div class="header-top__container w-1325 d-3xl-flex items-center justify-between gap-20 py-8">
+                            <!-- left -->
+                            <div class="header-top__left flex-0">
+                                <!-- logo -->
+                                 <a href="#" class="logo">
+                                    <img src="./images/svg/logo-1.svg" alt="" class="logo-img">
+                                </a>
+                                <!-- end logo -->
+                            </div>
+                            <!-- end left -->
+                            
+                            <!-- right -->
+                            <div class="header-top__right flex-1 d-3xl-flex items-center justify-end gap-30">
+                                <!-- narbar -->
+                                <nav class="navbar flex-1">
+                                    <ul class="navbar-wrapper d-3xl-flex items-center justify-between">
+                                        <!-- narbar item -->
+                                        <li class="navbar-item active">
+                                            <div class="navbar-item__heading d-3xl-flex items-center fw-600 fs-16">
+                                                <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block">Home</a>
+                                            </div>
+                                        </li>
+                                        <!-- end narbar item -->
+                                        <!-- narbar item -->
+                                        <li class="navbar-item">
+                                            <div class="navbar-item__heading d-3xl-flex items-center fw-600 fs-16">
+                                                <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block">Dịch vụ</a>
+                                            </div>
+                                            <ul class="navbar-dropdown fs-14 scroll">
+                                                <li class="navbar-dropdown__item">
+                                                    <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                                </li>
+                                                <li class="navbar-dropdown__item">
+                                                    <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                                </li>
+                                                <li class="navbar-dropdown__item">
+                                                    <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                                </li>
+                                                <li class="navbar-dropdown__item">
+                                                    <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- end narbar item -->
+                                        <!-- narbar item -->
+                                        <li class="navbar-item">
+                                            <div class="navbar-item__heading d-3xl-flex items-center fw-600 fs-16">
+                                                <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block">Dự án</a>
+                                            </div>
+                                            <ul class="navbar-dropdown fs-14 scroll">
+                                                <li class="navbar-dropdown__item">
+                                                    <a href="#" class="navbar-dropdown__link">Trong nước</a>
+                                                </li>
+                                                <li class="navbar-dropdown__item">
+                                                    <a href="#" class="navbar-dropdown__link">Quốc tế</a>
+                                                </li>
+                                                <li class="navbar-dropdown__item">
+                                                    <a href="#" class="navbar-dropdown__link">Tin phật sự</a>
+                                                </li>
+                                                <li class="navbar-dropdown__item">
+                                                    <a href="#" class="navbar-dropdown__link">Tin mới</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- end narbar item -->
+                                        <!-- narbar item -->
+                                        <li class="navbar-item">
+                                            <div class="navbar-item__heading d-3xl-flex items-center fw-600 fs-16">
+                                                <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block">Về chúng tôi</a>
+                                            </div>
+                                        </li>
+                                        <!-- end narbar item -->
+                                        <!-- narbar item -->
+                                        <li class="navbar-item">
+                                            <div class="navbar-item__heading d-3xl-flex items-center fw-600 fs-16">
+                                                <a href="#" class="navbar-item__text flex-1 d-3xl-inline-block">Liên hệ</a>
+                                            </div>
+                                        </li>
+                                        <!-- end narbar item -->
+                                        
+                                    </ul>
+                                </nav>
+                                <!-- end narbar -->
+
+                            
+                            </div>
+                            <!-- end right -->
+                        </div>
+                        <!-- end container -->
+                    </div>
+                    <!-- end header top -->
+                </div>
+            </div>
+            <!-- end pc -->
+             
+            <!-- mb -->
+            <div class="d-3xl-none d-xl-block">    
+                <div class="header-mb w-wrapper relative z-10">
+                    <!-- top -->
+                    <div class="header-mb-top py-10">
+                        <div class="header-mb-top__container w-1380 d-3xl-flex items-center">
+                            <!-- left -->
+                            <div class="header-mb-top__left flex-1 ml-3xl--15">
+                                <div class="icon-bar js__clickShowMenuMb px-15 py-10">
+                                    <img src="./images/svg/bar-cyan.svg" alt="" loading="lazy">
+                                </div>
+                                <div class="sub-menu-mb js__subMenuMb">
+                                    <div class="sub-menu-mb__close js__closeSubMenuMb d-3xl-flex items-center">
+                                        <img src="./images/svg/close-w.svg" alt="" loading="lazy">
+                                    </div>
+                                    <div class="sub-menu-mb__container px-15 pb-15 scroll">
+                                        <ul class="sub-menu-mb__list js__subMenuMbContainer">
+                                            <!-- item -->
+                                            <li class="sub-menu-mb__item js__subMenuMbItem">
+                                                <!-- heading -->
+                                                <div class="sub-menu-mb__heading d-3xl-flex items-center justify-between">
+                                                    <a href="#" class="link d-3xl-flex items-center flex-1">
+                                                        <p class="flex-1 text fw-700 fs-15 px-10 text-uppercase">Home</p>
+                                                    </a>
+                                                    
+                                                </div>
+                                                <!-- end heading -->
+                                                 
+                                            </li>
+                                            <!-- end item -->
+                                            <!-- item -->
+                                            <li class="sub-menu-mb__item js__subMenuMbItem">
+                                                <!-- heading -->
+                                                <div class="sub-menu-mb__heading d-3xl-flex items-center justify-between">
+                                                    <a href="#" class="link d-3xl-flex items-center flex-1">
+                                                        
+                                                        <p class="flex-1 text fw-700 fs-15 px-10 text-uppercase">Dịch vụ</p>
+                                                    </a>
+                                                    <div class="flex-0 arrow-icon js__showSubMenuMbItem">
+                                                        <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                    </div>
+                                                </div>
+                                                <!-- end heading -->
+
+                                                <!-- dropwdown -->
+                                                <div class="sub-menu-mb__dropdown js__subMenuMbDropdown">
+                                                    <!-- heading -->
+                                                    <div class="sub-menu-mb__dropdown-heading d-3xl-flex items-center justify-between">
+                                                        <a href="#" class="link d-3xl-flex items-center flex-1">
+                                                            Tầm nhìn và sứ mệnh
+                                                        </a>
+                                                    </div>
+                                                    <!-- end heading -->
+                                                    <!-- heading -->
+                                                    <div class="sub-menu-mb__dropdown-heading d-3xl-flex items-center justify-between">
+                                                        <a href="#" class="link d-3xl-flex items-center flex-1">
+                                                            Tầm nhìn và sứ mệnh
+                                                        </a>
+                                                    </div>
+                                                    <!-- end heading -->
+                                                    <!-- heading -->
+                                                    <div class="sub-menu-mb__dropdown-heading d-3xl-flex items-center justify-between">
+                                                        <a href="#" class="link d-3xl-flex items-center flex-1">
+                                                            Tầm nhìn và sứ mệnh
+                                                        </a>
+                                                    </div>
+                                                    <!-- end heading -->
+                                                    
+                                                </div>
+                                                <!-- end dropwdown -->
+                                                 
+                                            </li>
+                                            <!-- end item -->
+                                            <!-- item -->
+                                            <li class="sub-menu-mb__item js__subMenuMbItem">
+                                                <!-- heading -->
+                                                <div class="sub-menu-mb__heading d-3xl-flex items-center justify-between">
+                                                    <a href="#" class="link d-3xl-flex items-center flex-1">
+                                                        
+                                                        <p class="flex-1 text fw-700 fs-15 px-10 text-uppercase">Dự án</p>
+                                                    </a>
+                                                    <div class="flex-0 arrow-icon js__showSubMenuMbItem">
+                                                        <img src="./images/svg/arrow-down-gray.svg" alt="">
+                                                    </div>
+                                                </div>
+                                                <!-- end heading -->
+
+                                                <!-- dropwdown -->
+                                                <div class="sub-menu-mb__dropdown js__subMenuMbDropdown">
+                                                    <!-- heading -->
+                                                    <div class="sub-menu-mb__dropdown-heading d-3xl-flex items-center justify-between">
+                                                        <a href="#" class="link d-3xl-flex items-center flex-1">
+                                                            Tầm nhìn và sứ mệnh
+                                                        </a>
+                                                    </div>
+                                                    <!-- end heading -->
+                                                    <!-- heading -->
+                                                    <div class="sub-menu-mb__dropdown-heading d-3xl-flex items-center justify-between">
+                                                        <a href="#" class="link d-3xl-flex items-center flex-1">
+                                                            Tầm nhìn và sứ mệnh
+                                                        </a>
+                                                    </div>
+                                                    <!-- end heading -->
+                                                    <!-- heading -->
+                                                    <div class="sub-menu-mb__dropdown-heading d-3xl-flex items-center justify-between">
+                                                        <a href="#" class="link d-3xl-flex items-center flex-1">
+                                                            Tầm nhìn và sứ mệnh
+                                                        </a>
+                                                    </div>
+                                                    <!-- end heading -->
+                                                    
+                                                </div>
+                                                <!-- end dropwdown -->
+                                                 
+                                            </li>
+                                            <!-- end item -->
+                                            <!-- item -->
+                                            <li class="sub-menu-mb__item js__subMenuMbItem">
+                                                <!-- heading -->
+                                                <div class="sub-menu-mb__heading d-3xl-flex items-center justify-between">
+                                                    <a href="#" class="link d-3xl-flex items-center flex-1">
+                                                        
+                                                        <p class="flex-1 text fw-700 fs-15 px-10 text-uppercase">Về chúng tôi</p>
+                                                    </a>
+                                                </div>
+                                                <!-- end heading -->
+                                                 
+                                            </li>
+                                            <!-- end item -->
+                                            <!-- item -->
+                                            <li class="sub-menu-mb__item js__subMenuMbItem">
+                                                <!-- heading -->
+                                                <div class="sub-menu-mb__heading d-3xl-flex items-center justify-between">
+                                                    <a href="#" class="link d-3xl-flex items-center flex-1">
+                                                        
+                                                        <p class="flex-1 text fw-700 fs-15 px-10 text-uppercase">Liên hệ</p>
+                                                    </a>
+                                                </div>
+                                                <!-- end heading -->
+                                                 
+                                            </li>
+                                            <!-- end item -->
+                                            
+                                           
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end left -->
+                            <!-- center -->
+                            <div class="header-mb-top__center flex-2 d-3xl-flex items-center justify-center">
+                                <a href="#" class="logo">
+                                    <img src="./images/svg/logo-1.svg" alt="" class="logo-img">
+                                </a>
+                            </div>
+                            <!-- end center -->
+                            <!-- right -->
+                            <div class="header-mb-top__right flex-1 d-3xl-flex items-center justify-end">
+                                
+                            </div>
+                            <!-- end right -->
+                        </div>
+                    </div>
+                    <!-- end top -->
+                    
+                </div>
+            </div>
+            <!-- end mb -->
+
+        </header>
+        <!-- end header -->
+        <!-- main -->
+        <main id="main" class="main">
+            <!-- primary -->
+            <section class="about-us-primary relative z-20 over-hidden w-wrapper">
+                <div class="about-us-primary__container w-1448 w-lg-700 w-md-500 relative pt-3xl-80 pb-3xl-80 pt-sm-50 pb-sm-50">
+                    <!-- top -->
+                    <div class="about-us-primary__top">
+                        <h1>
+                            <img src="./images/svg/hoang-mai-media.svg" alt="">
+                        </h1>
+                    </div>
+                    <!-- end top -->
+
+                    <!-- sapo -->
+                    <div class="about-us-primary__sapo fs-24 fs-sm-18 fw-800 w-1000 mt-20">
+                        <p>Được thành lập từ năm 2009 bởi các chuyên gia truyền thông giàu kinh nghiệm, Hoàng Mai Media luôn nỗ lực để trở thành một trong những nhà cung cấp dịch vụ truyền thông hàng đầu tại Việt Nam.</p>
+                    </div>
+                    <!-- end sapo -->
+                    
+                    <!-- bot -->
+                    <div class="about-us-primary__bot w-1202 mt-30">
+                        <!-- img -->
+                        <div class="img-list d-3xl-flex items-center">
+                            <div class="flex-1">
+                                <img src="./images/img-1.png" alt="">
+                            </div>
+                            <div class="flex-1">
+                                <img src="./images/img-2.png" alt="">
+                            </div>
+                        </div>
+                        <!-- end img -->
+
+                        <!-- title -->
+                        <div class="heading-secondary relative text-center text-uppercase mt-20">
+                            <h2 class="title fs-48 fw-800 text-cyan-378">“Chuyên nghiệp, khác biệt và tận tâm”</h2>
+                        </div>
+                        <!-- end title -->
+
+                        <!-- des -->
+                        <div class="about-us-primary__des fs-20 fs-sm-16 mt-40 text-justify">
+                            <p>Chính là “kim chỉ nam” để chúng tôi thực hiện tốt mọi công việc trong suốt hơn 10 năm qua. Những việc mà chúng tôi làm, dù là nhỏ hay lớn, đều là sự kết tinh từ những am hiểu sâu sắc và nhạy bén về thị trường, những nỗ lực sáng tạo không ngừng nghỉ để hướng đến những thành quả tốt đẹp nhất</p>
+                            <p>Năm 2014, Hoàng Mai Media trở thành đối tác truyền thông chiến lược của VietnamFinance – Chuyên trang Đầu tư Tài chính Việt Nam, nay là Tạp chí Đầu tư tài chính - VietnamFinance. Bằng việc cung cấp những thông tin chính xác, khách quan và trung thực nhất về thị trường và các vấn đề kinh tế, VietnamFinance đã trở thành kênh thông tin được nhiều doanh nghiệp và độc giả yêu mến và tin tưởng. Đồng hành với sự phát triển của tạp chí là những nỗ lực của Hoàng Mai Media trong việc gắn kết với các doanh nghiệp hoạt động trong lĩnh vực tài chính, ngân hàng.</p>
+                            <p>Năm 2018, Hoàng Mai Media trở thành đối tác chiến lược với The Post Poem, một trong những tập đoàn truyền thông hàng đầu tại Hàn Quốc. Với 35 năm hoạt động, The Post Poem đã thực hiện nhiều chiến dịch truyền thông cho hàng loạt những tên tuổi lớn như Samsung, Hyundai, LG… Hoàng Mai Media cũng vinh dự là đối tác đầu tiên của The Post Poem tại Việt Nam trong kế hoạch mở rộng thị trường của tập đoàn này tại khu vực châu Á.</p>
+                            <p>Chúng tôi tin tưởng rằng với đội ngũ chuyên gia tư vấn xuất sắc, chúng tôi luôn tự tin vào việc thực hiện được các sản phẩm truyền thông chất lượng và cạnh tranh nhất</p>
+                        </div>
+                        <!-- end des -->
+                    </div>
+                    <!-- end bot -->
+                </div>
+            </section>
+            <!-- end primary -->
+
+            <!-- secondary -->
+            <section class="section-secondary relative z-20 over-hidden w-wrapper">
+                <div class="section-secondary__container w-1202 w-lg-700 w-md-500 pt-20 pb-3xl-80 py-lg-40 relative">
+                    <!-- heading -->
+                    <div class="heading-primary">
+                        <h2 class="title fs-32 text-cyan-378 pb-12 mb-40 border-b-353 fw-600 text-center text-uppercase">
+                            <a href="#">Khách hàng của chúng tôi</a>
+                        </h2>
+                    </div>
+                    <!-- end heading -->
+
+                    <!-- content -->
+                    <div class="section-secondary__content d-3xl-flex flex-wrap items-center justify-center">
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-8.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-9.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-10.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-11.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-12.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-5.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-13.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-3.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-2.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-1.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-14.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-15.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-16.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-17.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-18.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-19.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-20.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-21.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-22.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-23.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-24.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-25.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-26.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-27.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        <!-- article -->
+                        <div class="article bg-white">
+                            <div class="article-img">
+                                <a href="#">
+                                    <img src="./images/partner-28.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end article -->
+                        
+                    </div>
+                    <!-- end content -->
+                </div>
+            </section>
+            <!-- end secondary -->
+
+        </main>
+        <!-- end main -->
+        <!-- footer -->
+        <footer id="footer" class="footer">
+            <!-- back top -->
+            <div id="back-top" style="opacity: 1; visibility: visible;">
+                <img src="./images/svg/arrow-top-w.svg" alt="">
+            </div>
+            <!-- end back top -->
+            <!-- footer primary -->
+            <section class="footer-primary relative z-20 over-hidden w-wrapper bg-cyan-378">
+                <div class="footer-primary__container w-1202 py-60 pt-sm-50 pb-sm-50 d-3xl-flex d-md-block items-center">
+                    <!-- left -->
+                    <div class="footer-primary__left flex-0 w-40 w-md-full">
+                        <div class="footer-primary__logo">
+                            <a href="#">
+                                <img src="./images/svg/logo-2.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end left -->
+
+                    <!-- right -->
+                    <div class="footer-primary__right flex-1">
+                        <ul class="footer-primary__list">
+                            <!-- item -->
+                            <li class="footer-primary__item text-white d-3xl-flex items-center mb-20">
+                                <div class="icon flex-0 bg-white">
+                                    <img src="./images/svg/location-cyan.svg" alt="">
+                                </div>
+                                <p class="text fs-13 flex-1 pl-12">Tầng 2 Tòa nhà Quang Minh Land Tower, N02-T3, Khu đô thị Đoàn Ngoại Giao, Phường Xuân Đỉnh, Hà Nội</p>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-primary__item text-white d-3xl-flex items-center mb-20">
+                                <div class="icon flex-0 bg-white">
+                                    <img src="./images/svg/call-cyan.svg" alt="">
+                                </div>
+                                <p class="text fs-13 flex-1 pl-12">(+84) 904 634 986</p>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-primary__item text-white d-3xl-flex items-center mb-20">
+                                <div class="icon flex-0 bg-white">
+                                    <img src="./images/svg/email-cyan.svg" alt="">
+                                </div>
+                                <p class="text fs-13 flex-1 pl-12">contact@hoangmaimedia.vn</p>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-primary__item text-white d-3xl-flex items-center mb-20">
+                                <div class="icon flex-0 bg-white">
+                                    <img src="./images/svg/world-cyan.svg" alt="">
+                                </div>
+                                <p class="text fs-13 flex-1 pl-12">hoangmaimedia.vn</p>
+                            </li>
+                            <!-- end item -->
+                            <!-- item -->
+                            <li class="footer-primary__item text-white d-3xl-flex items-center mb-20">
+                                <div class="icon flex-0 bg-white">
+                                    <img src="./images/svg/fb-cyan.svg" alt="">
+                                </div>
+                                <p class="text fs-13 flex-1 pl-12">https://www.facebook.com/hoangmaimedia/</p>
+                            </li>
+                            <!-- end item -->
+                        </ul>
+                    </div>
+                    <!-- end right -->
+                </div>
+            </section>
+            <!-- end footer primary -->
+
+        </footer>
+        <!-- end footer -->
+        <script src="./lib/swiper/swiper-bundle.min.js"></script>
+        <script src="./lib/fancybox/jquery.fancybox.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
