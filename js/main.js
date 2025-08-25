@@ -96,6 +96,45 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         }
     }
+    // khởi tạo slider với 5 item
+    function initSliderFiveItems() {
+        const fiveSlides = document.querySelectorAll(".js__fiveSlidesContainer");
+        if (fiveSlides) {
+            fiveSlides.forEach((item) => {
+                var slider = item.querySelector(".js__fiveSlide");
+                var next = item.querySelector(".swiper-button-next");
+                var prev = item.querySelector(".swiper-button-prev");
+                var pagi = item.querySelector(".swiper-pagination");
+                new Swiper(slider, {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                    slidesPerGroup: 1,
+                    navigation: {
+                        nextEl: next || null,
+                        prevEl: prev || null,
+                    },
+                    pagination: {
+                        el: pagi || null,
+                        clickable: true,
+                    },
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    },
+                    breakpoints: {
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                        },
+                        1024: {
+                            slidesPerView: 5,
+                            spaceBetween: 40,
+                        }
+                    },
+                });
+            });
+        }
+    }
 
     
     // xử lý sự kiện show menu mobile
@@ -206,6 +245,7 @@ document.addEventListener("DOMContentLoaded", function () {
         handleMenuMobile();
         // slide
         initSliderThreeItems();
+        initSliderFiveItems();
         
         // end slide
         handleUploadFile();
