@@ -109,6 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     slidesPerView: 2,
                     spaceBetween: 20,
                     slidesPerGroup: 1,
+                    loop:true,
                     navigation: {
                         nextEl: next || null,
                         prevEl: prev || null,
@@ -118,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         clickable: true,
                     },
                     autoplay: {
-                        delay: 3000,
+                        delay: 2000,
                         disableOnInteraction: false,
                     },
                     breakpoints: {
